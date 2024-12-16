@@ -48,14 +48,14 @@ const Navbar = () => {
 
       {/* Mobile Navigation Menu */}
       <ul
-        className={`fixed md:hidden left-0 top-0 w-3/5 h-full border-r border-gray-900 bg-gray-900 duration-300 ${
+        className={`fixed md:hidden left-0 top-0 w-3/5 h-full border-r border-orange-900  backdrop-blur-lg bg-white/10 duration-300 ${
           nav ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
         {/* Mobile Logo */}
-        <div className="w-24 pl-4">
+        <div className="w-24 pl-4 pt-8">
           <Link to="/" onClick={closeNav}>
-            <img src={logo} alt="Website Logo" className="h-16" />
+            <img src={logo} alt="Website Logo" className="h-6" />
           </Link>
         </div>
         <br />
@@ -63,13 +63,13 @@ const Navbar = () => {
         {/* Mobile Navigation Items */}
         {navItems.map((item) => (
           <Link to={item.path} key={item.id} onClick={closeNav}>
-            <li className="p-4 border-b border-neutral-700 hover:bg-neutral-700 duration-300 font-medium hover:text-white cursor-pointer">
+            <li className="p-4 border-b border-neutral-700 hover:bg-teal-800 duration-300 font-medium hover:text-white cursor-pointer">
               {item.text}
             </li>
           </Link>
         ))}
         <li className="p-4 pt-5">
-          <button className="bg-blue-700 hover:bg-blue-800  font-medium h-10 px-4 py-2 text-white rounded-md transition duration-300">
+          <button className="bg-teal-700 hover:bg-teal-800  font-medium h-10 px-4 py-2 text-white rounded-md transition duration-300">
             Register
           </button>
         </li>

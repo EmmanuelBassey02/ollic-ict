@@ -8,13 +8,12 @@ function Section1() {
       <main className="md:px-[4vw] px-[3vw] py-12 max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column */}
-          <div className="lg:space-y-8 space-y-3">
-            <div className="md:space-y-6 space-y-4">
-              <h2 className="text-base text-gray-800 font-bold bg-gradient-to-r from-orange-400 via-neutral-100 to-neutral-200 border border-orange-600 text-center rounded-[15px] py-[6px] max-w-[300px]">Your Path to financial stability</h2>
-              <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-10">
-                Become a CISCO certified Software Engineer
-              </h1>
-              <p className="md:text-2xl text-gray-900 font-[600]">and qualify for well-paying remote jobs</p>
+          <div className="">
+              <h2 className="text-base text-gray-800 font-bold bg-gradient-to-r from-orange-400 via-neutral-100 to-neutral-200 border border-orange-600 text-center rounded-[15px] py-[6px] max-w-[300px] mb-10">Your Path to financial stability</h2>
+              <h1 className="text-3xl md:text-[42px] font-bold text-gray-900 lg:leading-[56px] leading-[44px]">
+                Become a <span className='bg-orange-400 px-3 p-[1px] rounded-[10px]'>CISCO</span> certified <span className='border-b-[4px] border-teal-800'>Software Engineer</span>
+              </h1><br />
+              <p className="md:text-2xl text-gray-900 font-[600]">and qualify for well-paying remote jobs</p><br />
               <p className="text-gray-900 leading-relaxed">
                 With our hands-on training, personalized career coaching, and a network of industry connections, we'll
                 have you ready to launch your Tech career in just 6 months
@@ -24,7 +23,6 @@ function Section1() {
                 Enroll Now
                </button>
               </Link>
-            </div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-4">

@@ -7,8 +7,8 @@ function Section4() {
        <section className='md:px-[4vw] px-[3vw] py-12'>
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 justify-between'>
           <div className='max-w-[300px]'>
-            <h1 className='font-bold md:text-3xl text-2xl text-black mb-6 pl-2'>Who can enroll?</h1>
-            <ul className='list-disc'>
+            <h1 className='font-bold md:text-3xl text-2xl text-black mb-6 pl-4'>Who can enroll?</h1>
+            <ul className='list-disc pl-6'>
                 <li className='mb-4'>Graduates</li>
                 <li className='mb-4'>Job Seekers</li>
                 <li className='mb-4'>Those interested in travelling abroad</li>
@@ -22,7 +22,7 @@ function Section4() {
           <img src={whotoenroll} alt="" />
         </div>
 
-          <div className='w-fit pl-2'>
+          <div className='w-fit pl-6'>
             <h1 className='font-bold md:text-3xl text-2xl text-black mb-6'>Why Us?</h1>
             <ul className='list-disc'>
                 <li className='mb-4'>Easy Certification with CISCO</li>

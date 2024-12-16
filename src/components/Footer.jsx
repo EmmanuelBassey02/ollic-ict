@@ -20,14 +20,14 @@ function Footer() {
              </div>
           </div>
 
-        <div className=''>
+        {/* <div className=''>
           <h2 className="text-orange-500 text-lg  font-semibold mb-4">Useful Links</h2>
             <div className="md:space-y-5 space-y-2 md:text-[15px] text-sm text-neutral-300">
               <Link to=""><p className='hover:underline mb-3'>Home</p></Link>
               <Link to=""><p className='hover:underline mb-3'>Contact</p></Link>
               <Link to=""><p className='hover:underline mb-1'>FAQs</p></Link>
             </div>
-        </div>
+        </div> */}
 
         <div className="md:text-[15px] text-sm md:space-y-3 space-y-2 text-neutral-300">
           <h2 className="text-orange-500 text-lg font-semibold mb-4">Contact</h2>
@@ -79,8 +79,8 @@ function Footer() {
           </form>
         </div>
       </div>
-      <p className="text-[12px] text-[#8c89ae] md:text-[13px] mt-10 max-w-2xl">
-        Copyright © {new Date().getFullYear()}
+      <p className="text-[12px] text-[#9e9bc1] md:text-[13px] mt-10 max-w-2xl">
+      Copyright © {new Date().getFullYear()} Ollic ICT. All Rights Reserved
       </p>
     </footer>
     </>

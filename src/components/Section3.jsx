@@ -4,7 +4,7 @@ import about from '../assets/about.svg'
 function Section3() {
   return (
     <>
-      <h1 className='font-bold md:text-5xl text-2xl w-fit m-auto text-teal-700 md:mb-10 sm:mb-5 mb-2 py-10'>Who We Are @ OLLIC</h1>
+      <h1 className='font-bold md:text-5xl text-2xl w-fit m-auto text-teal-900 md:mb-10 sm:mb-5 mb-2 py-10'>Who We Are @ OLLIC</h1>
       <div className='md:px-[4vw] px-[3vw] grid md:grid-cols-2 grid-cols-1 gap-10 justify-center items-center'>
         <img src={about} alt="" className='h-[450px] w-[450px] rounded-[50%] m-auto'/>
         <div className='max-w-lg h-fit p-2  w-fit m-auto font-[500]'>
